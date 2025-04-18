@@ -9,6 +9,11 @@ import instagram from '../assets/images/instagram.png';
 import leetcode from '../assets/images/leetcode.png';
 import About from './About';
 import Navbar from './Navbar';
+import Skills from './Skills';
+import Education from './Education';
+import Work from './Work';
+import Experience from './Experience';
+import Contact from './Contact';
 
 const Home = () => {
   const typedTextRef = useRef(null);
@@ -106,45 +111,44 @@ const Home = () => {
       </section>
 
       {/* About section  */}
-      <section id="about" className=" ">
+      <section id="about" >
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
           <About />
         </div>
       </section>
 
       {/* Add other sections with proper spacing */}
-      <section id="skills" className="pt-24 pb-16 md:py-32 bg-gray-50">
+      <section id="skills" className="bg-gradient-to-r from-violet-500 to-blue-600 py-12">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Skills</h2>
-          {/* Skills content */}
+          <Skills />
         </div>
       </section>
 
-      <section id="education" className="pt-24 pb-16 md:py-32">
+      <section id="education" className="">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Education</h2>
-          {/* Education content */}
+
+          <Education />
         </div>
       </section>
 
       <section id="work" className="pt-24 pb-16 md:py-32 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">Work</h2>
-          {/* Work content */}
+          <Work />
         </div>
       </section>
 
       <section id="experience" className="pt-24 pb-16 md:py-32">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">Experience</h2>
-          {/* Experience content */}
+        <Experience/>
         </div>
       </section>
 
       <section id="contact" className="pt-24 pb-16 md:py-32 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">Contact</h2>
-          {/* Contact content */}
+          <Contact />
         </div>
       </section>
     </>

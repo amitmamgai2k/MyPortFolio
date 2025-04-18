@@ -6,12 +6,11 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState('/');
   const location = useLocation();
 
-  // Update active link based on current location
+
   useEffect(() => {
-    // For hash links (#about, etc), extract the hash
+
     const hash = location.hash || '';
 
-    // Set active link based on path or hash
     if (hash) {
       setActiveLink(hash);
     } else {
@@ -19,7 +18,6 @@ const Navbar = () => {
     }
   }, [location]);
 
-  // Handle smooth scroll for hash links
   const scrollToSection = (e, sectionId) => {
     e.preventDefault();
     const element = document.getElementById(sectionId);
@@ -29,14 +27,10 @@ const Navbar = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
-  // Custom NavLink component with active styling
   const NavLink = ({ to, children }) => {
     const isActive = activeLink === to;
-
-    // For hash links, handle scroll behavior
     if (to.startsWith('#')) {
-      const sectionId = to.substring(1); // Remove the # from the ID
+      const sectionId = to.substring(1);
 
       return (
         <a
