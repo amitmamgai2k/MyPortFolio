@@ -1,10 +1,10 @@
 import React from 'react';
-import profileImage from '../assets/images/imgg.avif';
+import profileImage from '../assets/images/xca.avif';
 import { ArrowRight, Mail, MapPin, User } from 'lucide-react';
 
 const About = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white" id="about">
+    <section className="py-10 mt-10 bg-gradient-to-b from-pink-200 to-pink-100 rounded-lg" id="about">
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -31,10 +31,10 @@ const About = () => {
           </div>
 
           {/* Content Container */}
-          <div className="w-full md:w-3/5 mt-10 md:mt-0">
+          <div className="w-full md:w-3/5 ">
             <h3 className="text-3xl font-bold text-gray-800 mb-2">I'm Amit</h3>
             <span className="inline-block px-4 py-1 bg-blue-100 text-blue-600 font-medium rounded-full text-sm mb-6">
-              Software Engineer
+              MCA Student
             </span>
 
             <p className="text-gray-700 mb-8 leading-relaxed text-lg">

@@ -3,23 +3,23 @@ import { ExternalLink, Github, ArrowRight, Code } from 'lucide-react';
 import PortFolio from '../assets/Projects/Portfolio.png';
 import Drivo from '../assets/Projects/Drivo.png';
 import Sandesh from '../assets/Projects/Sandesh.png';
-import LMS from '../assets/Projects/LMS.png';
-import Currency from '../assets/Projects/currency.png';
-import Tic from '../assets/Projects/Tic Tac Toe.png';
+
+
 
 function Work() {
   const projects = [
     {
       id: 1,
-      title: "Drivo Rides ",
+      title: "Drivo Rides -The Riding Platform  ",
       image: Drivo,
-      description: "Drivo Rides - The Riding Platform",
+      description: "Drivo Rides - The Riding Platform for convenient and affordable transportation.",
+
       viewLink: "#",
       codeLink: "https://github.com/amitmamgai2k/Currency_Project"
     },
     {
       id: 2,
-      title: "Portfolio Website",
+      title: "Portfolio Website - My PortFolio Project ",
       image:PortFolio,
       description: "A responsive portfolio website showcasing my projects and skills.",
       viewLink: "#",
@@ -29,7 +29,8 @@ function Work() {
       id: 3,
       title: "Sandesh Digital Invitation Platform",
       image: Sandesh,
-      description: "A full-stack Digital Invitation application ",
+      description: "Sandesh - The Digital Invitation Platform for seamless communication.",
+
       viewLink: "#",
       codeLink: "https://github.com/RudrakshaSingh/Sandesh2",
     }
@@ -37,7 +38,7 @@ function Work() {
   ];
 
   return (
-    <section id="work" className="bg-gradient-to-b from-[#000031] to-[#00002c] py-16 px-4 md:px-8 rounded-lg">
+    <section id="work" className="bg-gradient-to-b from-blue-200 to-blue-100 py-16 px-4 md:px-8 rounded-lg">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -48,7 +49,7 @@ function Work() {
             Projects <span className="text-yellow-400 ml-2">Made</span>
           </h2>
           <div className="w-24 h-1 bg-yellow-400 mx-auto mt-4"></div>
-          <p className="text-gray-300 mt-4 max-w-2xl mx-auto">Check out some of my recent work and projects I've built using various technologies.</p>
+          <p className="text-white font-semibold mt-4 max-w-2xl mx-auto">Check out some of my recent work and projects I've built using various technologies.</p>
         </div>
 
         {/* Projects Grid */}

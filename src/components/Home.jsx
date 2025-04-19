@@ -15,6 +15,7 @@ import Work from './Work';
 import Experience from './Experience';
 import Contact from './Contact';
 import Hobbies from './Hobbies';
+import ScrollTop from './ScrollTop';
 
 const Home = () => {
   const typedTextRef = useRef(null);
@@ -53,6 +54,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
+      <ScrollTop />
 
       {/* Home section - add id="home" to the main section */}
       <section id="home" className="pt-24 pb-12  md:py-32 relative overflow-hidden">
@@ -119,7 +121,7 @@ const Home = () => {
       </section>
 
       {/* Add other sections with proper spacing */}
-      <section id="skills" className="bg-gradient-to-r from-violet-500 to-blue-600 py-12">
+      <section id="skills" className=" py-12">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
           <Skills />
         </div>

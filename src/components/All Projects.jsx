@@ -153,13 +153,7 @@ function AllProjects() {
   return (
     <section className="bg-gradient-to-b from-[#000031] to-[#00002c] py-16 px-4 md:px-8 min-h-screen">
       <div className="max-w-6xl mx-auto">
-        {/* Back Button */}
-        <div className="mb-12">
-          <a href="/" className="inline-flex items-center gap-2 text-yellow-400 hover:text-white transition-colors">
-            <ArrowLeft className="h-5 w-5" />
-            <span className="font-medium">Back to Home</span>
-          </a>
-        </div>
+
 
         {/* Header */}
         <div className="text-center mb-12">

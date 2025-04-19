@@ -8,7 +8,7 @@ function Experience() {
       icon: <Code className="w-6 h-6" />,
       title: "Frontend Development",
       description: "Created responsive user interfaces using React, HTML5, CSS3, and JavaScript. Implemented interactive UI components and animations for enhanced user experience.",
-      skills: ["React", "HTML", "CSS", "JavaScript", "Tailwind CSS"]
+      skills: ["React", "JavaScript", "CSS", "HTML", "Tailwind CSS"]
     },
     {
       id: 2,
@@ -43,12 +43,12 @@ function Experience() {
       icon: <Rocket className="w-6 h-6" />,
       title: "Project Deployment",
       description: "Successfully deployed web applications to production environments. Configured hosting services to ensure optimal performance.",
-      skills: ["Netlify", "Vercel", "Heroku", "Domain Configuration", "HTTPS"]
+      skills: ["Netlify", "Vercel", "Domain Configuration", "HTTPS"]
     }
   ];
 
   return (
-    <section id="experience" className="py-16 px-4 md:px-8 bg-gradient-to-b from-[#00002c] to-[#000020] rounded-lg">
+    <section id="experience" className="py-16 px-4 md:px-8 bg-gradient-to-b from-violet-500 to-violet-300 rounded-lg">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

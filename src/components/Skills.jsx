@@ -1,3 +1,4 @@
+import { Award, User } from 'lucide-react';
 import React from 'react';
 
 function Skills() {
@@ -80,11 +81,16 @@ function Skills() {
 
 
   return (
-    <section id="skills" className="py-6 rounded-xl bg-opacity-40 bg-indigo-400">
+    <section id="skills" className="py-6 rounded-xl bg-opacity-40 px-4 bg-gradient-to-b from-red-200 to-indigo-100">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-10">
-          Skills & <span className="text-yellow-400">Abilities</span>
-        </h2>
+      <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold inline-flex items-center justify-center">
+            <Award  size={40} className="text-orange-400 mr-3" />
+            Skills <span className="text-orange-400 ml-2">& Technologies</span>
+          </h2>
+          <div className="h-1 w-24 bg-orange-400 mx-auto mt-4"></div>
+        </div>
+
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {skillsData.map((skill, index) => (
