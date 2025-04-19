@@ -9,9 +9,9 @@ function App() {
     <>
 
     <Routes>
-      <Route path='/PortFolio' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/*' element={<PageNotFound/>}/>
-      <Route path = '/PortFolio/projects' element={<AllProjects/>}/>
+      <Route path = '/projects' element={<AllProjects/>}/>
     </Routes>
     </>
   )
