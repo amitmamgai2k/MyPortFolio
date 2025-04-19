@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://amitmamgai2k.github.io/MyPortFolio",
+  "homepage": "https://amitmamgai2k.github.io/MyPortFolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
