@@ -20,7 +20,7 @@ const Home = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['App Development', 'Web Development', 'Video Editor'],
+      strings: ['App Development', 'Web Development', 'Video Editing'],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true
@@ -131,25 +131,24 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="work" className="pt-24 pb-16 md:py-32 bg-gray-50">
+      <section id="work" className="pt-4 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Work</h2>
+
           <Work />
         </div>
       </section>
 
-      <section id="experience" className="pt-24 pb-16 md:py-32">
+      <section id="experience" className=" mt-10">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Experience</h2>
+
         <Experience/>
         </div>
       </section>
 
-      <section id="contact" className="pt-24 pb-16 md:py-32 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Contact</h2>
+      <section id="contact" className="mt-6 bg-gray-50">
+
           <Contact />
-        </div>
+
       </section>
     </>
   );

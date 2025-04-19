@@ -80,7 +80,7 @@ function Skills() {
 
 
   return (
-    <section id="skills" className="py-6 rounded-xl bg-indigo-400">
+    <section id="skills" className="py-6 rounded-xl bg-opacity-40 bg-indigo-400">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10">
           Skills & <span className="text-yellow-400">Abilities</span>
@@ -88,7 +88,7 @@ function Skills() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {skillsData.map((skill, index) => (
-            <div key={index} className="bg-gray-100 rounded-lg shadow-md  p-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+            <div key={index} className="bg-gray-900 text-white  rounded-lg shadow-lg  p-4 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               <div className="flex flex-col items-center">
 
                   <img src={skill.icon} alt={skill.name} className="h-12 w-12 mb-2" />

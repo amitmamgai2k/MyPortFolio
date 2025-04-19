@@ -9,7 +9,7 @@ import ten from '../assets/images/educat/scho.jpeg';
 
 const Education = () => {
   return (
-    <section className="bg-gray-50 py-16" id="education">
+    <section className="bg-blue-50 mt-6 py-4 rounded-lg" id="education">
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-6">
           <GraduationCap size={40} className="inline mr-2" />
@@ -22,7 +22,7 @@ const Education = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* MCA */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-violet-100 rounded-lg shadow-lg overflow-hidden">
             <div className="h-48 bg-gray-200">
               <img
                 className="w-full h-full object-cover"
@@ -31,14 +31,14 @@ const Education = () => {
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-800">Master in Computer Application (MCA)</h3>
+              <h3 className="text-xl font-bold text-violet-800">Master in Computer Application (MCA)</h3>
               <p className="text-gray-600 mt-2">University School of Information, Communication and Technology | GGSIPU</p>
               <h4 className="text-gray-500 mt-4">2024-2026 | Appearing</h4>
             </div>
           </div>
 
           {/* BSc */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-violet-100 rounded-lg shadow-lg overflow-hidden">
             <div className="h-48 bg-gray-200">
               <img
                 className="w-full h-full object-cover"
@@ -47,7 +47,7 @@ const Education = () => {
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-800">Bachelor of Science in Instrumentation</h3>
+              <h3 className="text-xl font-bold text-violet-800">Bachelor of Science in Instrumentation</h3>
               <p className="text-gray-600 mt-2">Bhaskaracharya College Of Applied Sciences | DU</p>
               <h4 className="text-gray-500 mt-4">2021-2024 | Completed</h4>
               <h4 className="text-gray-500 mt-1">Marks Obtained - 85%</h4>
@@ -55,7 +55,7 @@ const Education = () => {
           </div>
 
           {/* Intermediate */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-violet-100 rounded-lg shadow-lg overflow-hidden">
             <div className="h-48 bg-gray-200">
               <img
                 className="w-full h-full object-cover"
@@ -64,7 +64,7 @@ const Education = () => {
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-800">Intermediate</h3>
+              <h3 className="text-xl font-bold text-violet-800">Intermediate</h3>
               <p className="text-gray-600 mt-2">Govt. Sarvodaya Bal Vidyalaya, Bharthal, Bijwasan, New Delhi | CBSE</p>
               <h4 className="text-gray-500 mt-4">2020-2021 | Completed</h4>
               <h4 className="text-gray-500 mt-1">Marks Obtained - 87%</h4>
@@ -72,7 +72,7 @@ const Education = () => {
           </div>
 
           {/* Matriculate */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-violet-100 rounded-lg shadow-lg overflow-hidden">
             <div className="h-48 bg-gray-200">
               <img
                 className="w-full h-full object-cover"
@@ -81,7 +81,7 @@ const Education = () => {
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-800">Matriculate</h3>
+              <h3 className="text-xl font-bold text-violet-800">Matriculate</h3>
               <p className="text-gray-600 mt-2">Govt. Sarvodaya Bal Vidyalaya, Bharthal, Bijwasan, New Delhi | CBSE</p>
               <h4 className="text-gray-500 mt-4">2018-2019 | Completed</h4>
               <h4 className="text-gray-500 mt-1">Marks Obtained - 89%</h4>
