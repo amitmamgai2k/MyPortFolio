@@ -102,7 +102,7 @@ function Work() {
         {/* View All Button */}
         <div className="flex justify-center">
           <a
-            href="/projects"
+            href="/PortFolio/projects"
             className="group flex items-center gap-2 py-3 px-8 rounded-full bg-yellow-400 text-[#000031] font-bold text-lg transition-all duration-300 hover:bg-white hover:shadow-lg hover:shadow-yellow-400/20"
           >
             <span>View All Projects</span>

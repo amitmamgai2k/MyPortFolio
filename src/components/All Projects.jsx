@@ -13,6 +13,11 @@ import flex from '../assets/Projects/flex.jpg';
 import coinx from '../assets/Projects/coinx.jpg';
 import todo from '../assets/Projects/todo.jpg';
 import weather from '../assets/Projects/weather.jpg';
+import EGuru from '../assets/Projects/EGuru.png';
+import Hospital from '../assets/Projects/Hospital.png';
+import NFT from '../assets/Projects/NFT.png';
+import pixelabs from '../assets/Projects/pixelab.png';
+import scotter from '../assets/Projects/scotter.png';
 
 function AllProjects() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -137,10 +142,59 @@ function AllProjects() {
         codeLink: "https://github.com/amitmamgai2k/Fitness-App",
         category: "Mobile App"
       },
+      {
+        id: 14,
+        title: "E Guru",
+        image: EGuru,
+        description: "E Guru is a simple Ui Page",
+        viewLink: "#",
+        codeLink: "https://github.com/amitmamgai2k/master-level-project/tree/main/Project%201_%20E-Guru/E-Guru",
+        category: "Ui Page"
+      },
+      {
+        id: 15,
+        title: "Hospital Management System",
+        image: Hospital,
+        description: "Hospital Management System app  with Ui only",
+
+        viewLink: "#",
+        codeLink: "https://github.com/amitmamgai2k/master-level-project/tree/main/Project%202_%20hospital%20website%20landing%20page/hospital%20website%20landing%20page",
+        category: "Ui Page"
+      },
+      {
+        id: 16,
+        title: "Scotter Selling Page",
+        image: scotter,
+        description: "Scotter Selling Page app  with Ui only",
+
+        viewLink: "#",
+        codeLink: "https://github.com/amitmamgai2k/master-level-project/tree/main/project3",
+        category: "Ui Page"
+      },
+      {
+        id: 17,
+        title: "Pixelab",
+        image: pixelabs,
+        description: "Pixelab is Photo app with Ui only",
+
+        viewLink: "#",
+        codeLink: "https://github.com/amitmamgai2k/master-level-project/tree/main/Project%205",
+        category: "Ui Page"
+      },
+      {
+        id: 18,
+        title: "NFT Landing Page",
+        image: NFT,
+        description: "NFT Landing Page app  with Ui only.",
+
+        viewLink: "",
+        codeLink: "https://github.com/amitmamgai2k/master-level-project/tree/main/project4",
+        category: "Ui Page"
+      },
 
   ];
 
-  const categories = ['All', 'Web App', 'Mobile App', 'Full Stack'];
+  const categories = ['All', 'Web App', 'Mobile App', 'Full Stack', 'Ui Page'];
 
   const filteredProjects = projects.filter(project => {
     const matchesSearch = project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
