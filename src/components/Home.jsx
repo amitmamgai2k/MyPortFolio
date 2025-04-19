@@ -14,6 +14,7 @@ import Education from './Education';
 import Work from './Work';
 import Experience from './Experience';
 import Contact from './Contact';
+import Hobbies from './Hobbies';
 
 const Home = () => {
   const typedTextRef = useRef(null);
@@ -128,6 +129,12 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
 
           <Education />
+        </div>
+      </section>
+      <section id="hobbies" className="">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+
+          <Hobbies />
         </div>
       </section>
 

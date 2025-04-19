@@ -1,12 +1,18 @@
 import React from 'react';
 import { ExternalLink, Github, ArrowRight, Code } from 'lucide-react';
+import PortFolio from '../assets/Projects/Portfolio.png';
+import Drivo from '../assets/Projects/Drivo.png';
+import Sandesh from '../assets/Projects/Sandesh.png';
+import LMS from '../assets/Projects/LMS.png';
+import Currency from '../assets/Projects/currency.png';
+import Tic from '../assets/Projects/Tic Tac Toe.png';
 
 function Work() {
   const projects = [
     {
       id: 1,
       title: "Drivo Rides ",
-      image: "/api/placeholder/400/320",
+      image: Drivo,
       description: "Drivo Rides - The Riding Platform",
       viewLink: "#",
       codeLink: "https://github.com/amitmamgai2k/Currency_Project"
@@ -14,19 +20,20 @@ function Work() {
     {
       id: 2,
       title: "Portfolio Website",
-      image: "/api/placeholder/400/320",
+      image:PortFolio,
       description: "A responsive portfolio website showcasing my projects and skills.",
       viewLink: "#",
-      codeLink: "#"
+      codeLink: "https://github.com/amitmamgai2k/MyPortFolio",
     },
     {
       id: 3,
-      title: "E-commerce App",
-      image: "/api/placeholder/400/320",
-      description: "A full-stack e-commerce application with user authentication and payment integration.",
+      title: "Sandesh Digital Invitation Platform",
+      image: Sandesh,
+      description: "A full-stack Digital Invitation application ",
       viewLink: "#",
-      codeLink: "#"
+      codeLink: "https://github.com/RudrakshaSingh/Sandesh2",
     }
+
   ];
 
   return (
@@ -73,7 +80,7 @@ function Work() {
                     rel="noopener noreferrer"
                   >
                     <ExternalLink className="h-4 w-4" />
-                    Live Demo
+                     Demo
                   </a>
 
                   <a

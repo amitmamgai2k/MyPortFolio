@@ -114,6 +114,7 @@ const Navbar = () => {
           <NavLink to="about">About</NavLink>
           <NavLink to="skills">Skills</NavLink>
           <NavLink to="education">Education</NavLink>
+          <NavLink to="hobbies">Hobbies</NavLink>
           <NavLink to="work">Work</NavLink>
           <NavLink to="experience">Experience</NavLink>
           <NavLink to="contact">Contact</NavLink>
@@ -128,6 +129,7 @@ const Navbar = () => {
             <NavLink to="about">About</NavLink>
             <NavLink to="skills">Skills</NavLink>
             <NavLink to="education">Education</NavLink>
+            <NavLink to="hobbies">Hobbies</NavLink>
             <NavLink to="work">Work</NavLink>
             <NavLink to="experience">Experience</NavLink>
             <NavLink to="contact">Contact</NavLink>
