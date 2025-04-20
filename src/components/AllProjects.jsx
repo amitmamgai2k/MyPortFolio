@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github, ArrowLeft, Filter, Code, Search } from 'lucide-react';
-import PortFolio from '../assets/Projects/Portfolio.png';
+import PortFolio from '../assets/Projects/PortFolio.png';
 import Drivo from '../assets/Projects/Drivo.png';
 import Sandesh from '../assets/Projects/Sandesh.png';
 import LMS from '../assets/Projects/LMS.png';
