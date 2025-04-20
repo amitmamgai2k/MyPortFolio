@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github, ArrowRight, Code } from 'lucide-react';
-import PortFolio from '../assets/Projects/Portfolio.png';
+import PortFolio from '../assets/Projects/PortFolio.png';
 import Drivo from '../assets/Projects/Drivo.png';
 import Sandesh from '../assets/Projects/Sandesh.png';
 

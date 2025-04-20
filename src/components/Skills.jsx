@@ -1,4 +1,4 @@
-import { Award, User } from 'lucide-react';
+import { Award } from 'lucide-react';
 import React from 'react';
 
 function Skills() {

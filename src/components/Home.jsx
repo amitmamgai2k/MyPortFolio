@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import ParticlesComponent from './particles';
-import { Link } from 'react-router-dom';
 import hero1 from '../assets/images/hero1.png';
 import linkedin from '../assets/images/linkedin.png';
 import github from '../assets/images/github.png';
