@@ -6,7 +6,7 @@ import Sandesh from '../assets/Projects/Sandesh.png';
 import LMS from '../assets/Projects/LMS.png';
 import Currency from '../assets/Projects/currency.png';
 import Tic from '../assets/Projects/Tic Tac Toe.png';
-import stone from '../assets/Projects/stone.png';
+import stone from '../assets/Projects/Stone.png';
 import Pokedex from '../assets/Projects/Pokedex.png';
 import Password from '../assets/Projects/Password.png';
 import flex from '../assets/Projects/flex.jpg';
@@ -17,7 +17,7 @@ import EGuru from '../assets/Projects/EGuru.png';
 import Hospital from '../assets/Projects/Hospital.png';
 import NFT from '../assets/Projects/NFT.png';
 import pixelabs from '../assets/Projects/pixelab.png';
-import scotter from '../assets/Projects/scotter.png';
+import scotter from '../assets/Projects/Scotter.png';
 
 function AllProjects() {
   const [searchTerm, setSearchTerm] = useState('');
