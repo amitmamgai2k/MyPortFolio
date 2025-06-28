@@ -29,7 +29,7 @@ function AllProjects() {
       title: "Drivo Rides",
       image: Drivo,
       description: "Drivo Rides - The Riding Platform for convenient and affordable transportation.",
-      viewLink: "#",
+      viewLink: "https://drivo-rides.vercel.app/",
       codeLink: "https://github.com/amitmamgai2k/Drivo-Rides",
       category: "Full Stack"
     },
@@ -38,7 +38,7 @@ function AllProjects() {
       title: "Portfolio Website",
       image: PortFolio,
       description: "A responsive portfolio website showcasing my projects and skills.",
-      viewLink: "#",
+      viewLink: "https://my-port-folio.vercel.app/",
       codeLink: "https://github.com/amitmamgai2k/MyPortFolio",
       category: "Web App"
     },
