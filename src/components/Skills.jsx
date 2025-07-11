@@ -83,13 +83,13 @@ function Skills() {
   return (
     <section id="skills" className="py-6 rounded-xl bg-opacity-40 px-4 bg-gradient-to-b from-red-200 to-indigo-100">
       <div className="max-w-6xl mx-auto px-4">
-      <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold inline-flex items-center justify-center">
-            <Award  size={40} className="text-orange-400 mr-3" />
-            Skills <span className="text-orange-400 ml-2">& Technologies</span>
-          </h2>
-          <div className="h-1 w-24 bg-orange-400 mx-auto mt-4"></div>
-        </div>
+    <div className="text-center mb-8 md:mb-16">
+  <h2 className="text-2xl md:text-4xl font-bold inline-flex flex-wrap items-center justify-center text-center">
+    <Award size={28} className="text-orange-400 mr-2 md:mr-3" />
+    Skills <span className="text-orange-400 ml-1 md:ml-2">& Technologies</span>
+  </h2>
+  <div className="h-1 w-16 md:w-24 bg-orange-400 mx-auto mt-3 md:mt-4"></div>
+</div>
 
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

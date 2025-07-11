@@ -18,6 +18,9 @@ import Hospital from '../assets/Projects/Hospital.png';
 import NFT from '../assets/Projects/NFT.png';
 import pixelabs from '../assets/Projects/pixelab.png';
 import scotter from '../assets/Projects/Scotter.png';
+import HomeWorkBaba from '../assets/Projects/HomeWorkBaba.jpg';
+import BlogWebsite from '../assets/Projects/BlogWebsite.png';
+import NewsWebsite from '../assets/Projects/NewsWebsite.png';
 
 function AllProjects() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -191,6 +194,32 @@ function AllProjects() {
         codeLink: "https://github.com/amitmamgai2k/master-level-project/tree/main/project4",
         category: "Ui Page"
       },
+      {id:19,
+        title:"HomeWorkBaba",
+        image:HomeWorkBaba,
+        description:"HomeWorkBaba is a full stack application for students to get their assignments done",
+        viewLink:"https://www.linkedin.com/posts/amit-mamgai-933847227_day11-reactnative-firebaseauth-activity-7349059724559929347-WJZa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADjmSHcBa5fWgtGoyl5oBb67qz0NmCkKF3c",
+        codeLink:"https://github.com/amitmamgai2k/HomeworkBaba",
+        category:"Mobile App"
+      },
+      {
+        id: 20,
+        title:'Blog Website',
+        image:BlogWebsite,
+        description:'Blog Website is a full stack application for writing blogs and sharing them with others',
+        viewLink:"https://blog-website-five-orpin.vercel.app/",
+        codeLink:"https://github.com/amitmamgai2k/Blog-Website",
+        category:"Full Stack"
+      },
+      {
+        id:21,
+        title:'News Website',
+        image:NewsWebsite,
+        description:'News Website is used for reading news and sharing them with others',
+        viewLink:"https://news-website-five-orpin.vercel.app/",
+        codeLink:"https://canti-lever.vercel.app/",
+        category:"Full Stack"
+      }
 
   ];
 
