@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import ParticlesComponent from './particles';
-import hero1 from '../assets/images/hero1.png';
+import hero1 from '../assets/images/profile.png';
 import linkedin from '../assets/images/linkedin.png';
 import github from '../assets/images/github.png';
 import instagram from '../assets/images/instagram.png';
@@ -102,7 +102,7 @@ const Home = () => {
           <div className="w-full md:w-1/2">
             <div className="relative">
               <img
-                className="shadow-2xl cursor-pointer rounded-full hover:scale-110 ease-in-out duration-300 w-64 h-64 md:w-80 md:h-80 mx-auto"
+                className=" cursor-pointer  hover:scale-105 ease-in-out duration-300  mx-auto"
                 src={hero1}
                 alt="Amit Mamgai"
                 draggable="false"
