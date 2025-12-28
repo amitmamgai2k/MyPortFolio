@@ -21,6 +21,7 @@ import scotter from '../assets/Projects/Scotter.png';
 import HomeWorkBaba from '../assets/Projects/HomeWorkBaba.jpg';
 import BlogWebsite from '../assets/Projects/BlogWebsite.png';
 import NewsWebsite from '../assets/Projects/NewsWebsite.png';
+import TravelBuddy from '../assets/Projects/TravelBuddy.png';
 
 function AllProjects() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -219,6 +220,15 @@ function AllProjects() {
         viewLink:"https://news-website-five-orpin.vercel.app/",
         codeLink:"https://canti-lever.vercel.app/",
         category:"Full Stack"
+      },
+      {
+        id: 22,
+        title: 'Travel Buddy',
+        image: TravelBuddy,
+        description: 'A full-stack travel companion app for planning trips, discovering activities, connecting with fellow travelers, and AI-powered travel recommendations.',
+        viewLink: "https://travel-buddy-2-0-frontend.vercel.app/",
+        codeLink: "https://github.com/amitmamgai2k/TravelBuddy",
+        category: "Full Stack"
       }
 
   ];
@@ -234,7 +244,7 @@ function AllProjects() {
   });
 
   return (
-    <section className="bg-gradient-to-b from-[#000031] to-[#00002c] py-16 px-4 md:px-8 min-h-screen">
+    <section className="bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800 py-16 px-4 md:px-8 min-h-screen">
       <div className="max-w-6xl mx-auto">
 
 
