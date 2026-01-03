@@ -14,6 +14,7 @@ import Work from './Work';
 import Experience from './Experience';
 import Contact from './Contact';
 import Hobbies from './Hobbies';
+import CodingStats from './CodingStats';
 import ScrollTop from './ScrollTop';
 import { ArrowDown, Download, ChevronRight } from 'lucide-react';
 
@@ -187,6 +188,13 @@ const Home = () => {
       <section id="skills" className="bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
           <Skills />
+        </div>
+      </section>
+
+      {/* Coding Stats section */}
+      <section id="coding-stats" className="bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <CodingStats />
         </div>
       </section>
 
