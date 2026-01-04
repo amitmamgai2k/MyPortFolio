@@ -71,22 +71,22 @@ const CodingStats = () => {
 
   const StatCard = ({ icon: Icon, title, value, subtitle, gradient, delay = 0 }) => (
     <div
-      className="group relative p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm transition-all duration-500 hover:border-gray-600 hover:bg-gray-800/70 hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20"
+      className="group relative p-3 sm:p-4 md:p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm transition-all duration-500 hover:border-gray-600 hover:bg-gray-800/70 hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20 overflow-hidden"
       style={{ animationDelay: `${delay}ms` }}
     >
       {/* Glow effect on hover */}
       <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 blur-xl -z-10`}></div>
 
-      <div className="flex items-start gap-4">
-        <div className={`p-3 rounded-xl bg-gradient-to-br ${gradient} shadow-lg`}>
-          <Icon size={24} className="text-white" />
+      <div className="flex items-start gap-2 sm:gap-3 md:gap-4">
+        <div className={`p-2 sm:p-3 rounded-xl bg-gradient-to-br ${gradient} shadow-lg flex-shrink-0`}>
+          <Icon size={18} className="text-white sm:w-5 sm:h-5 md:w-6 md:h-6" />
         </div>
-        <div className="flex-1">
-          <p className="text-gray-400 text-sm font-medium mb-1">{title}</p>
-          <p className={`text-3xl font-bold bg-gradient-to-r ${gradient} bg-clip-text text-transparent`}>
+        <div className="flex-1 min-w-0">
+          <p className="text-gray-400 text-xs sm:text-sm font-medium mb-1 truncate">{title}</p>
+          <p className={`text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r ${gradient} bg-clip-text text-transparent break-words`}>
             {value}
           </p>
-          {subtitle && <p className="text-gray-500 text-xs mt-1">{subtitle}</p>}
+          {subtitle && <p className="text-gray-500 text-xs mt-1 truncate">{subtitle}</p>}
         </div>
       </div>
     </div>
@@ -181,7 +181,7 @@ const CodingStats = () => {
 
               {githubData && (
                 <>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 min-[480px]:grid-cols-2 gap-3 sm:gap-4">
                     <StatCard
                       icon={Code}
                       title="Repositories"
@@ -214,7 +214,7 @@ const CodingStats = () => {
 
                   {/* Languages */}
                   {githubData.languages && githubData.languages.length > 0 && (
-                    <div className="p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm">
+                    <div className="p-4 sm:p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm overflow-hidden">
                       <h4 className="text-white font-semibold mb-4 flex items-center gap-2">
                         <Zap size={18} className="text-yellow-400" />
                         Top Languages
@@ -233,7 +233,7 @@ const CodingStats = () => {
                   )}
 
                   {/* GitHub Contribution Graph Image */}
-                  <div className="p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm overflow-hidden">
+                  <div className="p-4 sm:p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm overflow-hidden">
                     <h4 className="text-white font-semibold mb-4 flex items-center gap-2">
                       <Activity size={18} className="text-green-400" />
                       Contribution Graph
@@ -269,7 +269,7 @@ const CodingStats = () => {
 
               {leetcodeData && (
                 <>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 min-[480px]:grid-cols-2 gap-3 sm:gap-4">
                     <StatCard
                       icon={CheckCircle2}
                       title="Problems Solved"
@@ -302,17 +302,17 @@ const CodingStats = () => {
                   </div>
 
                   {/* Total Problems Card */}
-                  <div className="p-6 rounded-2xl bg-gradient-to-br from-yellow-500/10 to-orange-500/10 border border-yellow-500/20 backdrop-blur-sm">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <p className="text-gray-400 text-sm font-medium">Total Problems in LeetCode</p>
-                        <p className="text-4xl font-bold text-white mt-2">
+                  <div className="p-4 sm:p-6 rounded-2xl bg-gradient-to-br from-yellow-500/10 to-orange-500/10 border border-yellow-500/20 backdrop-blur-sm overflow-hidden">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-0">
+                      <div className="min-w-0">
+                        <p className="text-gray-400 text-xs sm:text-sm font-medium">Total Problems in LeetCode</p>
+                        <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mt-1 sm:mt-2">
                           {(leetcodeData.totalEasy || 0) + (leetcodeData.totalMedium || 0) + (leetcodeData.totalHard || 0) || '3200+'}
                         </p>
                       </div>
-                      <div className="text-right">
-                        <p className="text-gray-400 text-sm font-medium">Your Progress</p>
-                        <p className="text-4xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent mt-2">
+                      <div className="text-left sm:text-right">
+                        <p className="text-gray-400 text-xs sm:text-sm font-medium">Your Progress</p>
+                        <p className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent mt-1 sm:mt-2">
                           {leetcodeData.totalSolved || 0}
                         </p>
                       </div>
@@ -328,7 +328,7 @@ const CodingStats = () => {
                   </div>
 
                   {/* LeetCode Activity Card - Similar to GitHub Graph */}
-                  <div className="p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm overflow-hidden">
+                  <div className="p-4 sm:p-6 rounded-2xl bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm overflow-hidden">
                     <h4 className="text-white font-semibold mb-4 flex items-center gap-2">
                       <Activity size={18} className="text-orange-400" />
                       LeetCode Activity
